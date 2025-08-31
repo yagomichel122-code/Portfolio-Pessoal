@@ -1,0 +1,39 @@
+/* Estilo do site */
+body {
+  font-family: Arial, sans-serif; /* Fonte usada no site */
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa; /* Cor de fundo clara */
+}
+
+/* Cabeçalho */
+header {
+  background-color: #222; /* Fundo escuro para o menu */
+  padding: 15px;
+  text-align: center;
+}
+
+/* Links do menu */
+nav a {
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Efeito quando o mouse passa em cima */
+nav a:hover {
+  color: #0a0e0f; /* Azul claro no hover */
+}
+
+/* Área principal de conteúdo */
+main {
+  max-width: 800px; /* Largura máxima do conteúdo */
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+  text-align: center;
+}
+

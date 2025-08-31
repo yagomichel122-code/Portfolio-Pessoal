@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Container para centralizar a imagem do portfólio */
+    .portfolio-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Estilo da imagem do portfólio */
+    .portfolio-img {
+      width: 250px; /* largura padrão para desktop */
+      max-width: 100%; /* não ultrapassa a tela em celular */
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      cursor: pointer; /* muda o cursor ao passar em cima */
+    }
+
+    /* Efeito de zoom ao passar o mouse */
+    .portfolio-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    /* Responsividade para telas menores */
+    @media (max-width: 768px) {
+      .portfolio-img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Sobre Mim</a>
+      <a href="formacao.html">Formação</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Portfólio</h1>
+    <p>Clique na imagem abaixo para acessar meu portfólio completo em nova aba:</p>
+
+    <div class="portfolio-container">
+      <!-- Link para o portfólio completo -->
+      <a href="https://github.com/yagomichel122-code" target="_blank">
+        <img src="Github.png" alt="Meu Portfólio" class="portfolio-img">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
+
